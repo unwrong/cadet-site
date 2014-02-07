@@ -1,50 +1,39 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿
+
+.dosis{
+    font-family: 'dosis', sans-serif;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+body > nav {
+    .dosis;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    a {
+        -webkit-transition: color 0.1s;
+        transition: color 0.1s;
+        -moz-transition: color 0.1s;
+        -webkit-transition: color 0.1s ease-in-out;
+        -o-transition: color 0.1s;
+        .current {
+            color: #00a2ff;
+        }
+    }
+
+    .nav-centered {
+        float: none;
+        width: 720px;
+        margin: 15px auto 15px auto;
+    }
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
 
-/* styles for validation helpers */
-.field-validation-error {
-    color: #b94a48;
-}
 
-.field-validation-valid {
-    display: none;
-}
-
-input.input-validation-error {
-    border: 1px solid #b94a48;
-}
-
-input[type="checkbox"].input-validation-error {
-    border: 0 none;
-}
-
-.validation-summary-errors {
-    color: #b94a48;
-}
-
-.validation-summary-valid {
-    display: none;
-}
-
-@media (max-width: 960px) {
-    .navbar-nav.nav-centered{
-      float: left;
-      margin: auto;
-      width: auto;
+@media (max-width: 768px) {
+    body > nav {
+        .nav-centered {
+            width: auto;
+        }
     }
 }
