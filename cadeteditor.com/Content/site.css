@@ -22,8 +22,73 @@ body > nav .nav-centered {
   width: 720px;
   margin: 15px auto 15px auto;
 }
+#hero {
+  background-image: url('Images/hero_bg.jpg');
+}
+#hero #logo {
+  height: 253px;
+  text-align: center;
+}
+#hero #logo img {
+  margin: 110px 0 0 0;
+}
+#hero #logo h1 {
+  font-family: 'dosis', sans-serif;
+  color: #fff;
+  font-size: 2.6em;
+  margin: 14px 0 0 0;
+}
+#hero #carousel {
+  height: 468px;
+}
+#hero #carousel .carousel {
+  padding-top: 24px;
+}
+#hero #carousel .carousel .carousel-inner .item .item-inner {
+  color: #fff;
+  text-align: center;
+  width: 580px;
+  margin: auto;
+}
+#hero #carousel .carousel .carousel-inner .item .item-inner h2 {
+  margin: 20px 0 10px 0;
+  font-family: 'dosis', sans-serif;
+}
+#hero #carousel .carousel .carousel-inner .item .item-inner p {
+  padding: 10px;
+  border-top: 1px solid #fff;
+  font-style: italic;
+  font-size: 1.15em;
+}
+#hero #carousel .carousel .carousel-control span {
+  margin-top: 130px;
+}
+#hero #tweets {
+  background-color: #eee;
+  padding: 32px;
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+  line-height: 24px;
+  border-bottom: 1px solid #ddd;
+}
+body > footer {
+  background-color: #2e2336;
+}
 @media (max-width: 768px) {
   body > nav .nav-centered {
     width: auto;
+  }
+  #hero {
+    margin-top: 50px;
+  }
+  #hero #logo {
+    height: 163px;
+  }
+  #hero #logo img {
+    margin: 20px 0 0 0;
+  }
+  #hero #carousel .carousel .carousel-indicators {
+    bottom: -30px;
   }
 }

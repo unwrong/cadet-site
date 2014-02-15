@@ -28,12 +28,109 @@ body > nav {
     }
 }
 
+#hero{
+    background-image: url('Images/hero_bg.jpg');
+    
+    #logo{
+        height: 253px;
+        text-align: center;
+        img{
+            margin: 110px 0 0 0;
+        }
+        h1{
+            .dosis;
+            color: #fff;
+            font-size: 2.6em;
+            margin: 14px 0 0 0;
+        }
+    }
 
+    #carousel{
+        height: 468px;
+        .carousel{
+            padding-top: 24px;
+            .carousel-inner{
+                .item{
+                    .item-inner{
+                        color: #fff;
+                        text-align: center;
+                        width: 580px;
+                        margin: auto;
+                        h2{
+                            margin: 20px 0 10px 0;
+                            .dosis;
+                        }
+                        p{
+                            padding: 10px;
+                            border-top: 1px solid #fff;
+                            font-style: italic;
+                            font-size: 1.15em;
+                        }
+                    }
+                }
+            }
+            .carousel-control{
+                span{
+                    margin-top: 130px;
+                }
+            }
+        }
+    }
+    #tweets{
+        background-color: #eee;
+        padding: 32px;
+        font-size: 24px;
+        text-align: center;
+        font-style: italic;
+        line-height: 24px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+}
+
+body > footer{
+    background-color: #2e2336;
+
+}
 
 @media (max-width: 768px) {
     body > nav {
         .nav-centered {
             width: auto;
+        }
+    }
+
+    #hero {
+        margin-top: 50px;
+
+        #logo {
+            height: 163px;
+
+            img {
+                margin: 20px 0 0 0;
+            }
+        }
+
+        #carousel {
+            .carousel {
+                .carousel-inner {
+                    .item {
+                        .item-inner {
+                            //width: 380px;
+                        }
+                    }
+                }
+
+                .carousel-indicators {
+                    bottom: -30px;
+                }
+
+                .carousel-control {
+                    span {
+                        //margin-top: 210px;
+                    }
+                }
+            }
         }
     }
 }

@@ -122,6 +122,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.min.css" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap.css" />
@@ -130,8 +131,29 @@
     <Content Include="bower_components\bootstrap\dist\js\bootstrap.js" />
     <Content Include="bower_components\bootstrap\dist\js\bootstrap.min.js" />
     <Content Include="bower_components\jquery\jquery.min.js" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\back_to_top.png" />
+    <Content Include="Content\Images\carousel\1_1.gif" />
+    <Content Include="Content\Images\carousel\1_2.gif" />
+    <Content Include="Content\Images\carousel\2_1.gif" />
+    <Content Include="Content\Images\carousel\2_2.gif" />
+    <Content Include="Content\Images\carousel\3_1.gif" />
+    <Content Include="Content\Images\carousel\3_2.gif" />
+    <Content Include="Content\Images\carousel\4_1.gif" />
+    <Content Include="Content\Images\carousel\4_2.gif" />
+    <Content Include="Content\Images\carousel\5_1.gif" />
+    <Content Include="Content\Images\carousel\5_2.gif" />
+    <Content Include="Content\Images\hero_bg.jpg" />
+    <Content Include="Content\Images\icons\moose_lg.png" />
+    <Content Include="Content\Images\icons\moose_sm.png" />
+    <Content Include="Content\Images\icons\tower_lg.png" />
+    <Content Include="Content\Images\icons\tower_sm.png" />
+    <Content Include="Content\Images\icons\trees_lg.png" />
+    <Content Include="Content\Images\icons\trees_sm.png" />
+    <Content Include="Content\Images\icons\tree_sm.png" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\logo_line.png" />
+    <Content Include="Content\Images\logo_small.png" />
+    <Content Include="Content\Images\started.png" />
     <Content Include="Content\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -151,6 +173,7 @@
     <Content Include="bower_components\bootstrap\less\theme.less" />
     <Content Include="bower_components\bootstrap\less\variables.less" />
     <Content Include="Content\site.less" />
+    <Content Include="bower_components\bootstrap\less\carousel.less" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -180,7 +203,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
