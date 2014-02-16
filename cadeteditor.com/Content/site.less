@@ -71,7 +71,7 @@ body > nav {
             }
             .carousel-control{
                 span{
-                    margin-top: 130px;
+                    //margin-top: 105px;
                 }
             }
         }
@@ -93,6 +93,7 @@ body > footer{
 
 }
 
+// tablet portrait
 @media (max-width: 768px) {
     body > nav {
         .nav-centered {
@@ -116,18 +117,64 @@ body > footer{
                 .carousel-inner {
                     .item {
                         .item-inner {
-                            //width: 380px;
+                            width: 80%;
+                            p{
+                                margin-left: 20px;
+                                margin-right: 20px;
+                            }
+                            img{
+                                width: 100%;
+                            }
                         }
                     }
                 }
 
                 .carousel-indicators {
                     bottom: -30px;
+                    //display: none;
                 }
 
                 .carousel-control {
                     span {
-                        //margin-top: 210px;
+                        //margin-top: 95px;
+                        &.glyphicon-chevron-left{
+                            margin-left: -15px;
+                        }
+                        &.glyphicon-chevron-right{
+                            margin-right: -15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// smartphone portrait
+@media (max-width: 320px) {
+
+    #hero {
+
+        #carousel {
+            .carousel {
+                .carousel-inner {
+                    .item {
+                        .item-inner {
+
+                        }
+                    }
+                }
+
+                .carousel-indicators {
+
+                }
+
+                .carousel-control {
+                    span {
+                        &.glyphicon-chevron-left{
+                        }
+                        &.glyphicon-chevron-right{
+                        }
                     }
                 }
             }

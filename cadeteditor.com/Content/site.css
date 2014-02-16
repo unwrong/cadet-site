@@ -60,9 +60,6 @@ body > nav .nav-centered {
   font-style: italic;
   font-size: 1.15em;
 }
-#hero #carousel .carousel .carousel-control span {
-  margin-top: 130px;
-}
 #hero #tweets {
   background-color: #eee;
   padding: 32px;
@@ -88,7 +85,23 @@ body > footer {
   #hero #logo img {
     margin: 20px 0 0 0;
   }
+  #hero #carousel .carousel .carousel-inner .item .item-inner {
+    width: 80%;
+  }
+  #hero #carousel .carousel .carousel-inner .item .item-inner p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #hero #carousel .carousel .carousel-inner .item .item-inner img {
+    width: 100%;
+  }
   #hero #carousel .carousel .carousel-indicators {
     bottom: -30px;
+  }
+  #hero #carousel .carousel .carousel-control span.glyphicon-chevron-left {
+    margin-left: -15px;
+  }
+  #hero #carousel .carousel .carousel-control span.glyphicon-chevron-right {
+    margin-right: -15px;
   }
 }
