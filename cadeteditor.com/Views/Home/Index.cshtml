@@ -9,34 +9,37 @@
     </div>
     <div id="carousel">
 
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-pause="hover">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="9000">
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active">
+                <div class="item active" data-loop-at="3800">
                     <div class="item-inner">
-                        <img src="~/Content/Images/carousel/1_2.gif">
+                        <img class="display-none" src="~/Content/Images/carousel/1_1.gif" />
+                        <img class="display-none" src="~/Content/Images/carousel/1_2.gif" />
                         <h2>What is Cadet?</h2>
                         <p>
                             Cadet is a free suite of tools and code libraries for Flash game publishers that enables you to easily create visual editors for every game you make.
                         </p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-loop-at="4600">
                     <div class="item-inner">
-                        <img src="~/Content/Images/carousel/2_2.gif">
+                        <img src="~/Content/Images/carousel/2_1.gif" />
+                        <img class="display-none" src="~/Content/Images/carousel/2_2.gif" />
                         <h2>What is Cadet?</h2>
                         <p>
                             Cadet is a free suite of tools and code libraries for Flash game publishers that enables you to easily create visual editors for every game you make.
                         </p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-loop-at="4400">
                     <div class="item-inner">
-                        <img src="~/Content/Images/carousel/3_2.gif">
+                        <img src="~/Content/Images/carousel/3_1.gif" />
+                        <img class="display-none" src="~/Content/Images/carousel/3_2.gif" />
                         <h2>What is Cadet?</h2>
                         <p>
                             Cadet is a free suite of tools and code libraries for Flash game publishers that enables you to easily create visual editors for every game you make.
@@ -92,3 +95,7 @@
     <div class="greyLine"></div>
     Cadet Engine is currently in Beta, be a part of it's development <a href="">on GitHub</a>
 </div>
+
+@section Scripts{
+    <script type="text/javascript" src="~/Scripts/carousel.js"></script>
+}

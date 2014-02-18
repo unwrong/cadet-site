@@ -1,4 +1,7 @@
-﻿.dosis {
+﻿.display-none {
+  display: none;
+}
+.dosis {
   font-family: 'dosis', sans-serif;
 }
 body > nav {
@@ -24,13 +27,14 @@ body > nav .nav-centered {
 }
 #hero {
   background-image: url('Images/hero_bg.jpg');
+  margin-top: 81px;
 }
 #hero #logo {
-  height: 253px;
+  height: 172px;
   text-align: center;
 }
 #hero #logo img {
-  margin: 110px 0 0 0;
+  margin: 30px 0 0 0;
 }
 #hero #logo h1 {
   font-family: 'dosis', sans-serif;
